@@ -22,25 +22,31 @@
     <Filter Include="Interfaces">
       <UniqueIdentifier>{fd6e6c60-011b-400c-9300-84eecec07f7b}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Classes\Gate">
-      <UniqueIdentifier>{8b5f4b10-a807-43c6-9f0a-44c92d06b928}</UniqueIdentifier>
+    <Filter Include="Classes\Crypthographer">
+      <UniqueIdentifier>{56bc0722-1d01-4a33-b5ab-c1d43fcb229f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\std">
+      <UniqueIdentifier>{82928ecb-9694-432b-8540-24b0d5c2ff82}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="stdafx.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="Resource.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="BlockInfo.h">
       <Filter>Classes\BlockInfo</Filter>
     </ClInclude>
-    <ClInclude Include="IBlockInfo.h">
-      <Filter>Interfaces</Filter>
+    <ClInclude Include="Crypthographer.h">
+      <Filter>Classes\Crypthographer</Filter>
     </ClInclude>
-    <ClInclude Include="Gate.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="stdFunctions.h">
+      <Filter>Header Files\std</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files\std</Filter>
+    </ClInclude>
+    <ClInclude Include="stdEnvironment.h">
+      <Filter>Header Files\std</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -53,8 +59,8 @@
     <ClCompile Include="BlockInfo.cpp">
       <Filter>Classes\BlockInfo</Filter>
     </ClCompile>
-    <ClCompile Include="Gate.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="Crypthographer.cpp">
+      <Filter>Classes\Crypthographer</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

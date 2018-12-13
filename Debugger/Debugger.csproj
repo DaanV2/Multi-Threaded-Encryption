@@ -47,6 +47,13 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="Overview.dgml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Multi-Threaded-Encryption\Multi-Threaded-Encryption.vcxproj">
+      <Project>{6581ae4f-582b-49bc-8ac7-17368b3a43f9}</Project>
+      <Name>Multi-Threaded-Encryption</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

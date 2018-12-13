@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph GraphDirection="LeftToRight" Layout="Sugiyama" ZoomLevel="-1" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="(@1 @2 @12 Member=hID)" Category="CodeSchema_Field" Bounds="367.083333333336,438,59.3966666666674,26" CodeSchemaProperty_IsPrivate="True" Icon="d8ef124d-a5ec-4691-afe3-d0cdd8e87382" Label="hID" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" NativeProvider_Type="size_t" />
+    <Node Id="(@1 @2 @12 Member=hLength)" Category="CodeSchema_Field" Bounds="456.480000000003,438,84.4300000000003,26" CodeSchemaProperty_IsPrivate="True" Icon="d8ef124d-a5ec-4691-afe3-d0cdd8e87382" Label="hLength" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" NativeProvider_Type="size_t" />
+    <Node Id="(@1 @2 @12 Member=hReadData)" Category="CodeSchema_Field" Bounds="570.910000000003,438,98.760000000002,26" CodeSchemaProperty_IsPrivate="True" Icon="d8ef124d-a5ec-4691-afe3-d0cdd8e87382" Label="hReadData" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" NativeProvider_Type="array&lt;unsigned char&gt;^" />
+    <Node Id="(@1 @2 @12 Member=hStartPosition)" Category="CodeSchema_Field" Bounds="498.200000000004,494,114.290000000001,26" CodeSchemaProperty_IsPrivate="True" Icon="d8ef124d-a5ec-4691-afe3-d0cdd8e87382" Label="hStartPosition" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" NativeProvider_Type="size_t" />
+    <Node Id="(@1 @2 @12 Member=hWriteData)" Category="CodeSchema_Field" Bounds="367.083333333336,494,101.116666666669,26" CodeSchemaProperty_IsPrivate="True" Icon="d8ef124d-a5ec-4691-afe3-d0cdd8e87382" Label="hWriteData" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" NativeProvider_Type="array&lt;unsigned char&gt;^" />
+    <Node Id="@10" Category="CodeSchema_Method" Bounds="196.836666666666,325,120.290000000001,26" CodeSchemaProperty_IsPublic="True" Icon="3074720c-5745-4b6a-8ca8-500718a13fa6" Label="IncreaseNeed‎(‎)" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" NativeProvider_IsInline="True" NativeProvider_ReturnType="void" />
+    <Node Id="@11" Category="CodeSchema_Method" Bounds="193.663333333334,40,126.636666666665,26" CodeSchemaProperty_IsPublic="True" Icon="3074720c-5745-4b6a-8ca8-500718a13fa6" Label="MarkComplete‎(‎)" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" NativeProvider_IsInline="True" NativeProvider_ReturnType="void" />
+    <Node Id="@13" Category="CodeSchema_Method" Bounds="20,495,195.356666666667,26" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" Icon="3074720c-5745-4b6a-8ca8-500718a13fa6" Label="BlockInfo‎(size_t‎, size_t‎, size_t‎)" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" />
+    <Node Id="@14" Category="CodeSchema_Method" Bounds="69.0116666666654,438,97.3333333333358,26" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" Icon="3074720c-5745-4b6a-8ca8-500718a13fa6" Label="BlockInfo‎(‎)" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" />
+    <Node Id="@15" Category="CodeSchema_Field" Bounds="350.299999999999,40,99.1666666666642,26" CodeSchemaProperty_IsPrivate="True" Icon="d8ef124d-a5ec-4691-afe3-d0cdd8e87382" Label="hComplete" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" NativeProvider_Type="bool" />
+    <Node Id="@16" Category="CodeSchema_Field" Bounds="361.689999999999,97,76.3866666666654,26" CodeSchemaProperty_IsPrivate="True" Icon="d8ef124d-a5ec-4691-afe3-d0cdd8e87382" Label="hNeed" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" NativeProvider_Type="long long" />
+    <Node Id="@17" Category="CodeSchema_Method" Bounds="245.356666666667,438,91.7266666666692,26" CodeSchemaProperty_IsPrivate="True" Icon="435374f1-5556-4790-8d52-d73f48de4342" Label="Initialize‎(‎)" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" NativeProvider_IsInline="True" NativeProvider_ReturnType="void" />
+    <Node Id="@18" Category="CodeSchema_Field" Bounds="224.388333333332,268,65.1866666666683,26" CodeSchemaProperty_IsPrivate="True" Icon="d8ef124d-a5ec-4691-afe3-d0cdd8e87382" Label="Lock" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" NativeProvider_Type="Mutex ^" />
+    <Node Id="@19" Category="CodeSchema_Field" Bounds="202.619999999999,154,108.723333333335,26" CodeSchemaProperty_IsPrivate="True" Icon="d8ef124d-a5ec-4691-afe3-d0cdd8e87382" Label="ReadingGate" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" NativeProvider_Type="EventWaitHandle ^" />
+    <Node Id="@20" Category="CodeSchema_Field" Bounds="204.58,211,104.803333333333,26" CodeSchemaProperty_IsPrivate="True" Icon="d8ef124d-a5ec-4691-afe3-d0cdd8e87382" Label="WritingGate" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" NativeProvider_Type="EventWaitHandle ^" />
+    <Node Id="@22" Category="CodeSchema_Class" Bounds="0,0,689.670000000006,541" CodeSchemaProperty_IsPublic="True" Group="Expanded" Icon="2e89e08d-d403-4fc8-9665-7e201ef76845" Label="BlockInfo" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" NativeProvider_IsConst="True" NativeProvider_TypeName="BlockInfo" />
+    <Node Id="@3" Category="CodeSchema_Method" Bounds="20,382,143.663333333334,26" CodeSchemaProperty_IsPublic="True" Icon="3074720c-5745-4b6a-8ca8-500718a13fa6" Label="BeginCrytography‎(‎)" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" NativeProvider_IsInline="True" NativeProvider_ReturnType="void" />
+    <Node Id="@4" Category="CodeSchema_Method" Bounds="31.2316666666666,325,121.200000000001,26" CodeSchemaProperty_IsPublic="True" Icon="3074720c-5745-4b6a-8ca8-500718a13fa6" Label="BeginReading‎(‎)" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" NativeProvider_ReturnType="void" />
+    <Node Id="@5" Category="CodeSchema_Method" Bounds="33.1916666666675,268,117.279999999999,26" CodeSchemaProperty_IsPublic="True" Icon="3074720c-5745-4b6a-8ca8-500718a13fa6" Label="BeginWriting‎(‎)" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" NativeProvider_IsInline="True" NativeProvider_ReturnType="void" />
+    <Node Id="@6" Category="CodeSchema_Method" Bounds="194.483333333333,97,124.996666666667,26" CodeSchemaProperty_IsPublic="True" Icon="fde230fd-7135-4931-b447-5d025e6a72cb" Label="DecreaseNeed‎(‎)" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" NativeProvider_IsInline="True" NativeProvider_ReturnType="void" />
+    <Node Id="@7" Category="CodeSchema_Method" Bounds="24.9966666666678,211,133.669999999998,26" CodeSchemaProperty_IsPublic="True" Icon="3074720c-5745-4b6a-8ca8-500718a13fa6" Label="EndCrytography‎(‎)" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" NativeProvider_IsInline="True" NativeProvider_ReturnType="void" />
+    <Node Id="@8" Category="CodeSchema_Method" Bounds="36.2283333333344,154,111.206666666665,26" CodeSchemaProperty_IsPublic="True" Icon="3074720c-5745-4b6a-8ca8-500718a13fa6" Label="EndReading‎(‎)" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" NativeProvider_IsInline="True" NativeProvider_ReturnType="void" />
+    <Node Id="@9" Category="CodeSchema_Method" Bounds="38.1883333333336,97,107.286666666667,26" CodeSchemaProperty_IsPublic="True" Icon="fde230fd-7135-4931-b447-5d025e6a72cb" Label="EndWriting‎(‎)" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" NativeProvider_IsInline="True" NativeProvider_ReturnType="void" />
+  </Nodes>
+  <Links>
+    <Link Source="@10" Target="@16" Bounds="269.132354736328,130.853454589844,119.078674316406,194.146545410156" />
+    <Link Source="@11" Target="@15" Bounds="320.299987792969,53,21,0" />
+    <Link Source="@13" Target="@17" Bounds="157.258010864258,466.808441162109,85.8317260742188,28.1915588378906" />
+    <Link Source="@14" Target="@17" Bounds="166.345001220703,451,70.0116729736328,0" />
+    <Link Source="@22" Target="(@1 @2 @12 Member=hID)" Category="Contains" />
+    <Link Source="@22" Target="(@1 @2 @12 Member=hLength)" Category="Contains" />
+    <Link Source="@22" Target="(@1 @2 @12 Member=hReadData)" Category="Contains" />
+    <Link Source="@22" Target="(@1 @2 @12 Member=hStartPosition)" Category="Contains" />
+    <Link Source="@22" Target="(@1 @2 @12 Member=hWriteData)" Category="Contains" />
+    <Link Source="@22" Target="@10" Category="Contains" />
+    <Link Source="@22" Target="@11" Category="Contains" />
+    <Link Source="@22" Target="@13" Category="Contains" />
+    <Link Source="@22" Target="@14" Category="Contains" />
+    <Link Source="@22" Target="@15" Category="Contains" />
+    <Link Source="@22" Target="@16" Category="Contains" />
+    <Link Source="@22" Target="@17" Category="Contains" />
+    <Link Source="@22" Target="@18" Category="Contains" />
+    <Link Source="@22" Target="@19" Category="Contains" />
+    <Link Source="@22" Target="@20" Category="Contains" />
+    <Link Source="@22" Target="@3" Category="Contains" />
+    <Link Source="@22" Target="@4" Category="Contains" />
+    <Link Source="@22" Target="@5" Category="Contains" />
+    <Link Source="@22" Target="@6" Category="Contains" />
+    <Link Source="@22" Target="@7" Category="Contains" />
+    <Link Source="@22" Target="@8" Category="Contains" />
+    <Link Source="@22" Target="@9" Category="Contains" />
+    <Link Source="@3" Target="@10" Bounds="129.497451782227,353.936309814453,81.3108825683594,28.0636901855469" />
+    <Link Source="@3" Target="@18" Bounds="110.664558410645,299.112731933594,120.077461242676,82.8872680664063" />
+    <Link Source="@4" Target="@10" Bounds="152.431671142578,338,35.4049987792969,0" />
+    <Link Source="@4" Target="@18" Bounds="129.497451782227,295.103942871094,86.6199035644531,29.8960571289063" />
+    <Link Source="@5" Target="@10" Bounds="129.497451782227,294,81.3108825683594,28.0636901855469" />
+    <Link Source="@5" Target="@18" Bounds="150.471664428711,281,64.9166717529297,0" />
+    <Link Source="@6" Target="@16" Bounds="319.480010986328,110,33.2099914550781,0" />
+    <Link Source="@7" Target="@18" Bounds="129.497451782227,237,86.6199035644531,29.8960571289063" />
+    <Link Source="@7" Target="@20" Bounds="158.66667175293,224,36.913330078125,0" />
+    <Link Source="@7" Target="@6" Bounds="110.664558410645,128.112747192383,120.077461242676,82.8872528076172" />
+    <Link Source="@8" Target="@18" Bounds="113.831741333008,180,118.913604736328,82.5482177734375" />
+    <Link Source="@8" Target="@19" Bounds="147.434997558594,167,46.1849975585938,0" />
+    <Link Source="@8" Target="@6" Bounds="129.497451782227,125.936294555664,81.3108825683594,28.0637054443359" />
+    <Link Source="@9" Target="@11" Bounds="129.497451782227,68.9362945556641,81.3108825683594,28.0637054443359" />
+    <Link Source="@9" Target="@18" Bounds="114.921119689941,123,108.177177429199,140.949340820313" />
+    <Link Source="@9" Target="@6" Bounds="145.475006103516,110,40.0083312988281,0" />
+  </Links>
+  <Categories>
+    <Category Id="CodeSchema_Class" Label="Class" BasedOn="CodeSchema_Type" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Class" NavigationActionLabel="Classes" />
+    <Category Id="CodeSchema_Field" Label="Field" BasedOn="CodeSchema_Member" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="CodeSchema_Field" NavigationActionLabel="Fields" />
+    <Category Id="CodeSchema_Member" Label="Member" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="CodeSchema_Field" NavigationActionLabel="Members" />
+    <Category Id="CodeSchema_Method" Label="Method" BasedOn="CodeSchema_Member" CanBeDataDriven="True" DefaultAction="Link:Forward:CodeSchema_Calls" Icon="CodeSchema_Method" NavigationActionLabel="Methods" />
+    <Category Id="CodeSchema_Type" Label="Type" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Class" NavigationActionLabel="Types" />
+    <Category Id="Contains" Label="Contains" Description="Whether the source of the link contains the target object" CanBeDataDriven="False" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Contained By" IsContainment="True" OutgoingActionLabel="Contains" />
+  </Categories>
+  <Properties>
+    <Property Id="Bounds" DataType="System.Windows.Rect" />
+    <Property Id="CanBeDataDriven" Label="CanBeDataDriven" Description="CanBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CanLinkedNodesBeDataDriven" Label="CanLinkedNodesBeDataDriven" Description="CanLinkedNodesBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsConstructor" Label="Is Constructor" Description="Flag to indicate the method is a constructor" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsPrivate" Label="Is Private" Description="Flag to indicate the scope is Private" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsPublic" Label="Is Public" Description="Flag to indicate the scope is Public" DataType="System.Boolean" />
+    <Property Id="DefaultAction" Label="DefaultAction" Description="DefaultAction" DataType="System.String" />
+    <Property Id="GraphDirection" DataType="Microsoft.VisualStudio.Diagrams.Layout.LayoutOrientation" />
+    <Property Id="Group" Label="Group" Description="Display the node as a group" DataType="Microsoft.VisualStudio.GraphModel.GraphGroupStyle" />
+    <Property Id="Icon" Label="Icon" Description="Icon" DataType="System.String" />
+    <Property Id="IncomingActionLabel" Label="IncomingActionLabel" Description="IncomingActionLabel" DataType="System.String" />
+    <Property Id="IsContainment" DataType="System.Boolean" />
+    <Property Id="Label" Label="Label" Description="Displayable label of an Annotatable object" DataType="System.String" />
+    <Property Id="Language" Label="Language" Description="Language" DataType="System.String" />
+    <Property Id="Layout" DataType="System.String" />
+    <Property Id="NativeProvider_IsConst" Label="IsConst" Description="IsConst" DataType="System.Boolean" />
+    <Property Id="NativeProvider_IsInline" Label="IsInline" Description="IsInline" DataType="System.Boolean" />
+    <Property Id="NativeProvider_ReturnType" Label="Return Type" Description="Return Type" DataType="System.String" />
+    <Property Id="NativeProvider_Type" Label="Type" Description="Type" DataType="System.String" />
+    <Property Id="NativeProvider_TypeName" Label="TypeName" Description="TypeName" DataType="System.String" />
+    <Property Id="NavigationActionLabel" Label="NavigationActionLabel" Description="NavigationActionLabel" DataType="System.String" />
+    <Property Id="OutgoingActionLabel" Label="OutgoingActionLabel" Description="OutgoingActionLabel" DataType="System.String" />
+    <Property Id="ZoomLevel" DataType="System.String" />
+  </Properties>
+  <QualifiedNames>
+    <Name Id="Assembly" Label="Assembly" ValueType="Uri" />
+    <Name Id="File" Label="File" ValueType="Uri" />
+    <Name Id="Member" Label="Member" ValueType="System.Object" />
+    <Name Id="Name" Label="Name" ValueType="System.String" />
+    <Name Id="Namespace" Label="Namespace" ValueType="System.String" />
+    <Name Id="OverloadingParameters" Label="Parameter" ValueType="Microsoft.VisualStudio.GraphModel.GraphNodeIdCollection" Formatter="NameValueNoEscape" />
+    <Name Id="Scope" Label="Scope" ValueType="System.String" />
+    <Name Id="Type" Label="Type" ValueType="System.Object" />
+  </QualifiedNames>
+  <IdentifierAliases>
+    <Alias n="1" Uri="Assembly=$(6581ae4f-582b-49bc-8ac7-17368b3a43f9.OutputPathUri)" />
+    <Alias n="2" Id="Namespace=MultiThreadedEncryption" />
+    <Alias n="3" Id="(@1 @2 Member=BeginCrytography)" />
+    <Alias n="4" Id="(@1 @2 Member=BeginReading)" />
+    <Alias n="5" Id="(@1 @2 Member=BeginWriting)" />
+    <Alias n="6" Id="(@1 Scope=MultiThreadedEncryption::BlockInfo Member=DecreaseNeed)" />
+    <Alias n="7" Id="(@1 @2 Member=EndCrytography)" />
+    <Alias n="8" Id="(@1 @2 Member=EndReading)" />
+    <Alias n="9" Id="(@1 Scope=MultiThreadedEncryption::BlockInfo Member=EndWriting)" />
+    <Alias n="10" Id="(@1 @2 Member=IncreaseNeed)" />
+    <Alias n="11" Id="(@1 @2 Member=MarkComplete)" />
+    <Alias n="12" Id="Type=BlockInfo" />
+    <Alias n="13" Id="(@1 @2 @12 Member=(Name=BlockInfo OverloadingParameters=[(Type=size_t),(Type=size_t),(Type=size_t)]))" />
+    <Alias n="14" Id="(@1 @2 @12 Member=BlockInfo)" />
+    <Alias n="15" Id="(@1 @2 @12 Member=hComplete)" />
+    <Alias n="16" Id="(@1 @2 @12 Member=hNeed)" />
+    <Alias n="17" Id="(@1 @2 @12 Member=Initialize)" />
+    <Alias n="18" Id="(@1 @2 @12 Member=Lock)" />
+    <Alias n="19" Id="(@1 @2 @12 Member=ReadingGate)" />
+    <Alias n="20" Id="(@1 @2 @12 Member=WritingGate)" />
+    <Alias n="21" Uri="File=$(VsSolutionUri)/Multi-Threaded-Encryption/BlockInfo.h" />
+    <Alias n="22" Id="(@1 @21 @2 @12)" />
+  </IdentifierAliases>
+  <Paths>
+    <Path Id="6581ae4f-582b-49bc-8ac7-17368b3a43f9.OutputPathUri" Value="file:///D:/Mijn Projecten/Software/Git Hub/Multi-Threaded-Encryption/Debug/Multi-Threaded-Encryption.dll" />
+    <Path Id="VsSolutionUri" Value="file:///D:/Mijn Projecten/Software/Git Hub/Multi-Threaded-Encryption" />
+  </Paths>
+</DirectedGraph>
